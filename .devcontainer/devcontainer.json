@@ -26,7 +26,7 @@
     ],
 
     // Need to change
-    "workspaceMount": "source=/home/ubuntu/workspace, target=/workspace/, type=bind, consistency=cached",
+    "workspaceMount": "source=/home/ubuntu/workspace,target=/workspace/,type=bind,consistency=cached",
     "workspaceFolder": "/workspace/",
     "runArgs": ["--name", "template", "-v", "/home/ubuntu/.ssh:/root/.ssh", "--shm-size=8G"],
 
